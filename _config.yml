@@ -1,0 +1,79 @@
+# Documentation: https://github.com/rohanchandra/type-theme
+# Example: https://github.com/rohanchandra/type-theme/blob/master/_config.yml
+
+remote_theme: "rohanchandra/type-theme"
+
+baseurl: "/blog-smv"
+url: "https://cui-unige.github.io"
+
+theme_settings:
+  title: "SMV Blog"
+  description: "Various thoughts of the Semantics, Modeling & Verification team at University of Geneva"
+
+  header_text: >
+     <p>Semantics, Modeling & Verification</p>
+
+  rss: true
+  email_address:
+  behance:
+  bitbucket: smv-cui
+  dribbble:
+  facebook:
+  flickr:
+  gitlab:
+  github: cui-unige/blog-smv
+  google_plus:
+  instagram:
+  linkedin:
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:
+  steam:
+  tumblr:
+  twitter:
+  wordpress:
+  youtube:
+
+  google_analytics:
+  disqus_shortname:
+  katex: true
+  search: false
+  post_navigation: true
+
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next_post: "Next post"
+  str_previous_post: "Previous post"
+  str_next_page: "Next"
+  str_previous_page: "Prev"
+  str_continue_reading: "Continue reading"
+  str_javascript_required_disqus: "Please enable JavaScript to view comments."
+  str_search_no_results: "No results found."
+
+date_format: "%d/%m/%Y"
+locale: "en"
+read_time: true
+words_per_minute: 200
+
+# Build settings
+permalink: pretty
+markdown: kramdown
+highlighter: rouge
+
+paginate: 10
+paginate_path: /page:num/
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+plugins: [jekyll-paginate]
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
